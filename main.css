@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+    background-color: rgba(186, 202, 214, 0.577);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: rgb(115, 122, 163);
+}
+
+header img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flexbox;
+    margin-bottom: 60px;
+}
+
+form input {
+    font-size: 25px;
+    max-width: 205px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 1px black;
+}
+
+button {
+    font-size: 25px;
+    font-weight: bold;
+    height: 52px;
+    border: none;
+    border-bottom: solid 1px black;
+    background-color: rgb(117, 163, 115);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px 5px;
+}
+
+button:hover {
+    background-color: rgb(125, 176, 123);
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table th {
+    border: solid 2px black;
+    padding: 16px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border: solid 2px black;
+}
+
+table tfoot {
+    text-align-last: left;
+    background-color: rgb(115, 122, 163);
+}
+
+table tfoot td {
+    border: none;
+    padding: 30px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
